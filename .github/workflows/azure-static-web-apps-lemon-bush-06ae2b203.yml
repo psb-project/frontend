@@ -21,7 +21,7 @@ jobs:
           git config --global user.email "tudorciot@gmail.com"
           chmod -R 777 .  # Change permissions as necessary
       - name:  Disable  CI  
-      - run:  echo  "CI=false" >> $GITHUB_ENV
+        run:  echo  "CI=false" >> $GITHUB_ENV
       - uses: actions/checkout@v3
         with:
           submodules: true
