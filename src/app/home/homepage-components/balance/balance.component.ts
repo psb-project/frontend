@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class BalanceComponent {
 
+  balance : number = 0;
+
+
+
+
 }
