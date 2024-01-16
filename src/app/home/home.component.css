@@ -1,0 +1,55 @@
+.header {
+  background-color: #f0f0f0;
+  color: #000000;
+  text-align: left;
+  padding: 10px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 24px;
+  width: 100%;
+}
+
+.balance {
+  background-color: #f0f0f0;
+  width: 25rem; 
+  height: 12rem; 
+  position: absolute;
+  top: 12rem;
+  left: 2rem;
+  border-radius: 5.8px;
+  margin-left: 20%;
+  background-image: url('../../assets/balance-photo.png');
+  background-size: 150%;
+  font-family: 'Manrope', sans-serif;
+}
+
+.favorite-transactions {
+  background-color: #f0f0f0;
+  width: 25rem;
+  height: 12rem;
+  position: absolute;
+  bottom: 22rem;
+  left: 2rem;
+  border-radius: 5.8px;
+  margin-left: 20%;
+  font-family: 'Manrope', sans-serif;
+}
+.insight {
+  background-color: #f0f0f0;
+  width: 50rem;
+  height: 24rem;
+  position: absolute;
+  top: 12rem;
+  right: 5rem;
+  border-radius: 5.8px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.latest-transactions {
+  background-color: #f0f0f0;
+  width: 100rem;
+  height: 18rem;
+  position: absolute;
+  bottom: 2rem;
+  border-radius: 5.8px;
+  font-family: 'Manrope', sans-serif;
+}
