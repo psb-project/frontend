@@ -13,6 +13,7 @@ import { SettingsComponent } from './settings/settings.component';
 import { SidebarMenuComponent } from './sidebar-menu/sidebar-menu.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from '../app/home/home.module';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -27,13 +28,14 @@ import { HomeModule } from '../app/home/home.module';
     TradingComponent,
     SettingsComponent,
     SidebarMenuComponent,
-       
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent],
